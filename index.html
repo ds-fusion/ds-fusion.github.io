@@ -80,13 +80,13 @@
                 </a>
               </span> -->
               <span class="link-block">
-                <a href=""
+                <a href="https://github.com/ds-fusion/ds-fusion"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="ai ai-arxiv"></i>
+                      <i class="fab fa-github"></i>
                   </span>
-                  <span>arXiv</span>
-                </a>
+                  <span>Code</span>
+                  </a>
               </span>
               <!-- Video Link. -->
               <!-- <span class="link-block">
@@ -103,7 +103,7 @@
                 <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="fab fa-github"></i>
+                      <i class="fab fa-github">ds-fusion/ds-fusion</i>
                   </span>
                   <span>Code</span>
                   </a>
@@ -129,21 +129,6 @@
   </div>
 </section>
 
-
-<!-- <section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src=""
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
 
 
 <section class="section">
@@ -251,6 +236,7 @@
 </section>
 
 <section>
+  <div class="container is-max-desktop">
   <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
       <h2 class="title is-3">Multi Letter Stylization</h2>
@@ -266,8 +252,7 @@
       </div>
     </div>
   </div>
-
-  <div class="container is-max-desktop">
+  
     <div class="hero-body">
       <img id="teaser" height="100%" alt="Multi Letter Results" src="./static/images/multi-letter.png"/>
       <h2 class="subtitle has-text-centered">
@@ -279,64 +264,91 @@
 
 
 <section>
-  <div class="columns is-centered has-text-centered">
-    <div class="column is-four-fifths">
-      <h2 class="title is-3">Effect of font</h2>
-      <div class="content has-text-justified">
-        <p>
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Font Specific Stylization</h2>
+        <div class="content has-text-justified">
+          <p>
+            Figures below shoes results produced by
+            varying the fonts of the input glyphs, for style “dragon” in letter "R".
+            Maintaing the shape of font, including stroke thickness, slanting, and accents. 
+          </p> 
+          </p>
+        </div>
+      </div>
+</section>
 
-        </p> 
-        </p>
+<section class="hero is-light is-small">
+  
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-r1">
+          <img src="./static/images/fonts/font2.png" />
+        </div>
+        <div class="item item-r2">
+          <img src="./static/images/fonts/font1.png" />
+        </div>
+        <div class="item item-r3">
+          <img src="./static/images/fonts/font3.png" />
+        </div>
+        <div class="item item-r4">
+          <img src="./static/images/fonts/font4.png" />
+        </div>
+        <div class="item item-r5">
+          <img src="./static/images/fonts/font5.png" />
+        </div>
       </div>
     </div>
   </div>
-
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <img id="teaser" height="100%" alt="Effect of font" src=""/>
-      <h2 class="subtitle has-text-centered">
-        <!-- Multi-Letter -->
-      </h2>
-    </div>
+</section>
   </div>
 </section>
 
 
-<!-- <section>
-  <div class="columns is-centered has-text-centered">
-    <div class="column is-four-fifths">
-      <h2 class="title is-3">Effect of Style</h2>
-      <div class="content has-text-justified">
-        <p>
+<section>
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Attribute Stylization</h2>
+        <div class="content has-text-justified">
+          <p>
+            The use of style attributes in the
+            input prompts can be an effective means to further fine-tune
+            the stylization. Here we show some examples of stylizing the letter 
+            "H" with "Harp" in different attributes.
+          </p> 
+          </p>
+        </div>
+      </div>
+</section>
 
-        </p> 
-        </p>
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-s1">
+          <img src="./static/images/styles/style1.png" />
+        </div>
+        <div class="item item-s2">
+          <img src="./static/images/styles/style2.png" />
+        </div>
+        <div class="item item-s3">
+          <img src="./static/images/styles/style3.png" />
+        </div>
       </div>
     </div>
   </div>
-
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <img id="teaser" height="100%" alt="Effect of style" src=""/>
-      <h2 class="subtitle has-text-centered">
-        <!-- Multi-Letter -->
-      </h2>
-    </div>
+</section>
   </div>
-</section> -->
+</section>
 
 
 
-<!-- <section class="one-letter">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <img id="teaser" height="100%" alt="DS-Fusion Teaser Results" src="./static/images/one-letter.png"/>
-      <h2 class="subtitle has-text-centered">
-        Single-Letter
-      </h2>
-    </div>
-  </div>
-</section> -->
+</section>
+
+
 
 
 
