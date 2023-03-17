@@ -206,8 +206,11 @@
         <h2 class="title is-3">Pipeline</h2>
         <div class="content has-text-justified">
           <p>
-            The pipeline of DS-Fusion, which takes as input a style prompt and a glyph image. 
-            The style images are generated according to the style word and attribute.  
+            The pipeline of DS-Fusion, which takes as input a style prompt and a glyph image. The style images are generated according to
+            the style word and attribute. DS-Fusion first utilizes a latent diffusion process to construct the latent space of the given style and then
+            introduces a discriminator to blend the style into the glyph shape. The parameters of a module are pre-trained and frozen if there is an icon
+            of a lock on the bottom right. The “+” module denotes the iterative noise injection process of diffusion models.
+
           </p> 
           </p>
         </div>
@@ -215,7 +218,7 @@
     </div>
 
     <div class="hero-body">
-      <img id="teaser" height="100%" alt="Pipe Line" src="./static/images/pipeline.png"/>
+      <img id="teaser" height="100%" alt="DS-Fusion Pipe Line" src="./static/images/pipeline.png"/>
       <h2 class="subtitle has-text-centered">
         <!-- Single-Letter -->
       </h2>
@@ -261,25 +264,25 @@
     <!-- <div class="container"> -->
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-r1">
-          <img src="./static/images/single/s1.png" />
+          <img src="./static/images/single/s1.png" alt="DS-Fusion Single Letter"  />
         </div>
         <div class="item item-r2">
-          <img src="./static/images/single/s2.png" />
+          <img src="./static/images/single/s2.png" alt="DS-Fusion Single Letter"  />
         </div>
         <div class="item item-r3">
-          <img src="./static/images/single/s3.png" />
+          <img src="./static/images/single/s3.png" alt="DS-Fusion Single Letter" />
         </div>
         <div class="item item-r3">
-          <img src="./static/images/single/s4.png" />
+          <img src="./static/images/single/s4.png" alt="DS-Fusion Single Letter" />
         </div>
         <div class="item item-r3">
-          <img src="./static/images/single/s5.png" />
+          <img src="./static/images/single/s5.png" alt="DS-Fusion Single Letter" />
         </div>
         <div class="item item-r3">
-          <img src="./static/images/single/s6.png" />
+          <img src="./static/images/single/s6.png" alt="DS-Fusion Single Letter" />
         </div>
         <div class="item item-r3">
-          <img src="./static/images/single/s7.png" />
+          <img src="./static/images/single/s7.png" alt="DS-Fusion Single Letter" />
         </div>
       </div>
     </div>
@@ -307,7 +310,7 @@
   
 
     <div class="columns is-centered has-text-centered">
-      <img id="teaser" width="70%" height="70%" alt="Multi Letter Results" src="./static/images/multi-letter.png"/>
+      <img id="teaser" width="70%" height="70%" alt="Multi Letter Results" src="./static/images/multi-letter.png" alt="DS-Fusion Multi Letter" />
       <h2 class="subtitle has-text-centered">
         <!-- Multi-Letter -->
       </h2>
@@ -338,19 +341,19 @@
     <!-- <div class="container"> -->
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-r1">
-          <img src="./static/images/fonts/font2.png" />
+          <img src="./static/images/fonts/font2.png" alt="DS-Fusion Font Stylization" />
         </div>
         <div class="item item-r2">
-          <img src="./static/images/fonts/font1.png" />
+          <img src="./static/images/fonts/font1.png"  alt="DS-Fusion Font Stylization" />
         </div>
         <div class="item item-r3">
-          <img src="./static/images/fonts/font3.png" />
+          <img src="./static/images/fonts/font3.png"  alt="DS-Fusion Font Stylization" />
         </div>
         <div class="item item-r4">
-          <img src="./static/images/fonts/font4.png" />
+          <img src="./static/images/fonts/font4.png"  alt="DS-Fusion Font Stylization" />
         </div>
         <div class="item item-r5">
-          <img src="./static/images/fonts/font5.png" />
+          <img src="./static/images/fonts/font5.png"  alt="DS-Fusion Font Stylization" />
         </div>
       </div>
     </div>
@@ -370,8 +373,7 @@
           <p>
             The use of style attributes in the
             input prompts can be an effective means to further fine-tune
-            the stylization. Here we show some examples of stylizing the letter 
-            "H" with "Harp" in different attributes.
+            the stylization.
           </p> 
           </p>
         </div>
